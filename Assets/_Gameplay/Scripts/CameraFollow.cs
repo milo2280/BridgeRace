@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform camera, player;
+    public Transform cameraTranform, player;
     public Vector3 offset;
 
     private Vector3 temp;
@@ -13,6 +13,6 @@ public class CameraFollow : MonoBehaviour
     {
         temp = player.position;
         temp.y = 0f;
-        camera.position = temp + offset;
+        cameraTranform.position = temp + offset;
     }
 }
