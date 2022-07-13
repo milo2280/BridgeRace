@@ -15,6 +15,7 @@ public class Player : Character
     private void Update()
     {
         JoystickMove();
+        Fall();
     }
 
     private void JoystickMove()
@@ -35,19 +36,26 @@ public class Player : Character
             if ((moveDir - Vector3.zero).sqrMagnitude > 0.01f)
             {
                 lookRotation = Quaternion.LookRotation(moveDir);
+                anim.SetTrigger(Constant.RUN);
             }
 
             trans.position = Vector3.Lerp(trans.position, trans.position + moveDir, speed * Time.deltaTime);
             
             trans.rotation = Quaternion.Slerp(trans.rotation, lookRotation, speed * Time.deltaTime);
-
-            anim.SetFloat(Constant.VELOCITY, speed);
         }
         
         if (Input.GetMouseButtonUp(0))
         {
             moveDir = Vector3.zero;
-            anim.SetFloat(Constant.VELOCITY, 0f);
+            anim.ResetTrigger(Constant.RUN);
+            anim.SetTrigger(Constant.IDLE);
         }
+    }
+
+    private void Fall()
+    {
+        //anim.SetBool(Constant.FALL, true);
+
+        //anim.SetBool(Constant.FALL, false);
     }
 }

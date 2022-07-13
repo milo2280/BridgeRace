@@ -5,13 +5,13 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 1307585886852797735
-    second: Armature|Armature|Armature|Armature.002|Armature|Armature|mixamo.com|Lay
+    second: Lay
   - first:
       74: -251351218608039746
-    second: Armature|attack
+    second: attack
   - first:
       74: -5639262923597353386
-    second: Armature|Bow
+    second: Bow
   - first:
       74: 5567560465902106206
     second: Armature|Dance
@@ -83,7 +83,76 @@ ModelImporter:
     second: Armature|Spin
   - first:
       74: -4086864642940237741
-    second: Armature|Swim
+    second: Swim
+  - first:
+      74: -886206124811307748
+    second: Dance
+  - first:
+      74: -6274773133218450215
+    second: Dance2
+  - first:
+      74: -8474920938684182129
+    second: Dance3
+  - first:
+      74: 4994401725302800540
+    second: Dance4
+  - first:
+      74: 9020385433322322867
+    second: Dance5
+  - first:
+      74: 435392156063993922
+    second: Dance6
+  - first:
+      74: -4809183542356235888
+    second: Dance7
+  - first:
+      74: 750240535966718493
+    second: Dance8
+  - first:
+      74: 5917537482288442099
+    second: Fall
+  - first:
+      74: -1103219732340962066
+    second: Flip3
+  - first:
+      74: -5252816984213320552
+    second: idle
+  - first:
+      74: 2562888284788868603
+    second: Idle2
+  - first:
+      74: -2603478504544128241
+    second: Idle3
+  - first:
+      74: -6877026360070407083
+    second: Idle4
+  - first:
+      74: -840521057012489831
+    second: Idle5
+  - first:
+      74: 1779877196664867679
+    second: Idle6
+  - first:
+      74: 4520538054679949341
+    second: Idle7
+  - first:
+      74: 5689828982184313656
+    second: Idle8
+  - first:
+      74: 2194468502022688957
+    second: KipUp
+  - first:
+      74: 6200578666267062213
+    second: run
+  - first:
+      74: 8990209544673171127
+    second: Run_Bow
+  - first:
+      74: -4396656936766697448
+    second: slide
+  - first:
+      74: -6333163131637793548
+    second: Spin
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -113,7 +182,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Armature|Armature|Armature.002|Armature|Armature|mixamo.com|Lay
+      name: Lay
       takeName: Armature|Armature|Armature|Armature.002|Armature|Armature|mixamo.com|Lay
       internalID: 0
       firstFrame: 0
@@ -142,7 +211,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|attack
+      name: attack
       takeName: Armature|attack
       internalID: 0
       firstFrame: 0
@@ -171,7 +240,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Bow
+      name: Bow
       takeName: Armature|Bow
       internalID: 0
       firstFrame: 0
@@ -200,7 +269,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance
+      name: Dance
       takeName: Armature|Dance
       internalID: 0
       firstFrame: 0
@@ -229,7 +298,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance2
+      name: Dance2
       takeName: Armature|Dance2
       internalID: 0
       firstFrame: 0
@@ -258,7 +327,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance3
+      name: Dance3
       takeName: Armature|Dance3
       internalID: 0
       firstFrame: 0
@@ -287,7 +356,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance4
+      name: Dance4
       takeName: Armature|Dance4
       internalID: 0
       firstFrame: 0
@@ -316,7 +385,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance5
+      name: Dance5
       takeName: Armature|Dance5
       internalID: 0
       firstFrame: 0
@@ -345,7 +414,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance6
+      name: Dance6
       takeName: Armature|Dance6
       internalID: 0
       firstFrame: 0
@@ -374,7 +443,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance7
+      name: Dance7
       takeName: Armature|Dance7
       internalID: 0
       firstFrame: 0
@@ -403,7 +472,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Dance8
+      name: Dance8
       takeName: Armature|Dance8
       internalID: 0
       firstFrame: 0
@@ -432,7 +501,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Fall
+      name: Fall
       takeName: Armature|Fall
       internalID: 0
       firstFrame: 0
@@ -461,7 +530,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Flip3
+      name: Flip3
       takeName: Armature|Flip3
       internalID: 0
       firstFrame: 0
@@ -490,7 +559,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|idle
+      name: idle
       takeName: Armature|idle
       internalID: 0
       firstFrame: 0
@@ -501,7 +570,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -519,7 +588,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle2
+      name: Idle2
       takeName: Armature|Idle2
       internalID: 0
       firstFrame: 0
@@ -548,7 +617,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle3
+      name: Idle3
       takeName: Armature|Idle3
       internalID: 0
       firstFrame: 0
@@ -577,7 +646,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle4
+      name: Idle4
       takeName: Armature|Idle4
       internalID: 0
       firstFrame: 0
@@ -606,7 +675,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle5
+      name: Idle5
       takeName: Armature|Idle5
       internalID: 0
       firstFrame: 0
@@ -635,7 +704,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle6
+      name: Idle6
       takeName: Armature|Idle6
       internalID: 0
       firstFrame: 0
@@ -664,7 +733,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle7
+      name: Idle7
       takeName: Armature|Idle7
       internalID: 0
       firstFrame: 0
@@ -693,7 +762,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle8
+      name: Idle8
       takeName: Armature|Idle8
       internalID: 0
       firstFrame: 0
@@ -722,7 +791,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|KipUp
+      name: KipUp
       takeName: Armature|KipUp
       internalID: 0
       firstFrame: 0
@@ -751,7 +820,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|run
+      name: run
       takeName: Armature|run
       internalID: 0
       firstFrame: 0
@@ -780,7 +849,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Run_Bow
+      name: Run_Bow
       takeName: Armature|Run_Bow
       internalID: 0
       firstFrame: 0
@@ -809,7 +878,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|slide
+      name: slide
       takeName: Armature|slide
       internalID: 0
       firstFrame: 0
@@ -838,7 +907,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Spin
+      name: Spin
       takeName: Armature|Spin
       internalID: 0
       firstFrame: 0
@@ -867,7 +936,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Swim
+      name: Swim
       takeName: Armature|Swim
       internalID: 0
       firstFrame: 0
